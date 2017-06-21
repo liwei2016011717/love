@@ -3,8 +3,232 @@
 <head>
 	<title>青春校园</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/list.css">
+	<!-- css -->
+	<style type="text/css">
+		/*
+主体样式
+*/
+*{
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+html{
+	padding: 0px;
+	color:#522a06; 
+	text-align: center;
+	font-size: 12px;
+	font-family: '宋体'；
+}
+html img{
+	border:0;
+}
+body{/*height: 750px;*/
+	background-image: url(images/bodybg.gif);
+}
+body ul{
+	list-style: none;
+}
+a{
+	color: 	#f9f603;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+/*
+网页头部样式
+*/
+.header{
+	width: 1300px;
+	height: 205px;
+	background-image: url(images/banner.jpg);
+
+}
+.banner{
+	height: 164px;
+	text-align: center;
+}
+.banner img{
+	margin-top: 35px;
+	margin-left: -800px;
+
+}
+
+.nav{/*border: 1px  solid;*/
+	height: 40px;
+	background-image: url(images/nav1.jpg);
+}
+.nav_body{
+	width: 1000px;
+}
+.nav_content{
+	color: #FFFFFF;
+	width: 800px;
+	margin-left: 120px;
+	font-weight: bolder;
+}
+.nav_content ul{border: 1px #fff solid;
+	margin-top: 0px;
+
+}
+.nav_content ul li{
+	float: left;
+
+}
+
+.nav ul li a{
+	color: #CC6666;
+	line-height: 40px;
+}
+.nav ul li a:hover{
+	color: #f9f603;
+	text-decoration: none;
+}
+.nav_search{
+	margin-right: -40px;
+}
+
+.nav_search input{
+	width: 140px;
+	height: 20px;
+	float: right;
+	margin-right: 1px;
+	margin-top: 11px;
+	background-color:#f8f5ee;
+}
+.nav_search input[type='button']{
+	color: #fff;
+	width: 44px;
+	height: 21px;
+	margin-top: 11px;
+	margin-right:120px;
+	background-color: #000;
+}
+.shouye{/*border: 1px #FF0000 solid;*/
+	font-size: 14px;
+	width: 226px;
+	height: 20px;
+	margin-top: 40px;
+	margin-left: 140px;
+}
+.shouye a{
+	color: #FF00FF;
+}
+.shouye a:hover{
+	color: #FF0000;
+	text-decoration: none;
+}
+.haha{/*border: 1px #FF0000 solid;*/
+	width: 220px;
+	height: 400px;
+	margin-top: 30px;
+	margin-left: 200px;
+	background-image: url(images/beijing.png);
+}
+.hh{
+	/*border: 1px #FF0000 solid;*/
+	font-size: 12px;
+	width: 220px;
+	height: 270px;
+}
+.hh a{
+	color: #000;
+}
+.hh a:hover{
+	text-decoration: none;
+	color: #FF0000;
+}
+.hehe ul li{
+	float: left;
+	margin-left: 20px;
+}
+.im{
+	/*border: 1px #FF0000 solid;*/
+	width: 220px;
+	height: 260px;
+	margin-top: 140px;
+	margin-left: 200px;
+	background-image: url(images/beijing.png);
+}
+.im a{
+	color: #000;
+}
+.im a:hover{
+	color: #FF0000;
+	text-decoration: none;
+}
+.news_list{/*border: 1px #FF0000 solid;*/
+	width: 500px;
+	height: 300px;
+	margin-top: -400px;
+	margin-left: 540px;
+
+}
+.opinion{/*border: 1px #FF0000 solid;*/
+	width: 500px;
+	height: 50px;
+}
+
+.ul ul{/*border: 1px #FF0000 solid;*/
+	width: 500px;
+	height: 248px;
+	float: left;
+	margin-top: -300px;
+}
+.ul ul li{
+	float: left;
+	margin-left: 20px;
+}
+.news_list2{/*border: 1px #FF0000 solid;*/
+	width: 500px;
+	height: 300px;
+	margin-top: -330px;
+	margin-left: 540px;
+
+}
+.zheng{
+	width: 500px;
+	height: 50px;
+
+}
+.li ul{
+	width: 500px;
+	height: 248px;
+	float: left;
+	}
+.li ul li{
+	float: left;
+	margin-left: 20px;
+
+}
+.content_xuhao{
+	
+	float: right;
+	margin-top: 32px;
+	margin-right:260px;
+	width: 500px;
+}
+.content_xuhao1 a{
+	color: #000;
+	font-size: 14px;
+}
+.footer{
+	height: 80px;
+	margin-top: 60px;
+	margin-left: 5px;
+	font-size: 12px;
+	text-align: center;
+}
+.footer img{
+	width: 800px;
+	height: 1px;
+}
+
+
+	</style>
+	<!-- css -->
+
 </head>
 <body>
 <!-- 页头部分 -->
@@ -23,7 +247,7 @@
 					<li><a href="content.html">学习ing</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
 					<li><a href="#">运动ing</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
 					<li><a href="content.html">音乐ing</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
-					<li><a href="#"><font face="华文彩云"> B612</font></a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+					<li><a href="list.html"><font face="华文彩云"> news</font></a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
 					<li><a href="#">旅游ing</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
 					<li><a href="#">购物ing</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
 					<li><a href="comment.html">评论ing</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
